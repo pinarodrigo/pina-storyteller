@@ -1,0 +1,64 @@
+{
+	"invocation": "buecher grimm",
+	"intents": [
+	  {
+		"name": "PlayIntent",
+		"phrases": [
+		  "erzählt mir eine Geschichte"
+		]
+	  }
+	],
+	"alexa": {
+	  "interactionModel": {
+		"languageModel": {
+		  "intents": [
+			{
+			  "name": "AMAZON.CancelIntent",
+			  "samples": []
+			},
+			{
+			  "name": "AMAZON.HelpIntent",
+			  "samples": []
+			},
+			{
+			  "name": "AMAZON.StopIntent",
+			  "samples": []
+			},
+			{
+			  "name": "AMAZON.ResumeIntent",
+			  "samples": []
+			},
+			{
+			  "name": "AMAZON.PauseIntent",
+			  "samples": []
+			},
+			{
+			  "name": "AMAZON.NextIntent",
+			  "samples": []
+			}
+		  ]
+		}
+	  }
+	},
+	"dialogflow": {
+	  "intents": [
+		{
+		  "name": "Default Fallback Intent",
+		  "auto": true,
+		  "webhookUsed": true,
+		  "fallbackIntent": true
+		},
+		{
+		  "name": "Default Welcome Intent",
+		  "auto": true,
+		  "webhookUsed": true,
+		  "events": [
+			{
+			  "name": "WELCOME"
+			}
+		  ]
+		}
+	  ]
+	}
+  }
+  

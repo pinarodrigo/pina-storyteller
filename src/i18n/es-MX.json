@@ -1,0 +1,19 @@
+{
+    "translation": {
+        "welcome": "Hola, ¿Quieres escuchar una historia?",
+        "welcome_with_parameter": "Welcome {{firstname}} {{lastname}}",
+        "welcome_array": [
+            "Welcome",
+            "Hey",
+            "Hello"
+        ],
+        "quieres": "¿Quieres escuchar una historia?",
+        "sino": "Solo dime sí o no",
+        "pause": "pausado",
+        "resuming": "continuando",
+        "welcome_nested": {
+            "speech": "You can access this with welcome_nested.speech",
+            "reprompt": "You can access this with welcome_nested.reprompt"
+        }
+    }
+}

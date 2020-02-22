@@ -1,0 +1,41 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "cuentos grimm",
+			"types": [],
+			"intents": [
+				{
+					"name": "PlayIntent",
+					"samples": [
+						"cúentame un cuento",
+						"cuéntame una historia"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ResumeIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PauseIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NextIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

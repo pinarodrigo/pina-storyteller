@@ -1,0 +1,41 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "grimm storyteller",
+			"types": [],
+			"intents": [
+				{
+					"name": "PlayIntent",
+					"samples": [
+						"Play a song",
+						"Start the song"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ResumeIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PauseIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NextIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

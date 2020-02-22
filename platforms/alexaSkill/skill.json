@@ -1,0 +1,89 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Sample Short Description",
+					"examplePhrases": [
+						"Alexa open storyteller pina"
+					],
+					"keywords": [
+						"hello",
+						"world"
+					],
+					"name": "grimm storyteller",
+					"description": "Sample Full Description",
+					"smallIconUri": "https://via.placeholder.com/108/09f/09f.png",
+					"largeIconUri": "https://via.placeholder.com/512/09f/09f.png"
+				},
+				"es-MX": {
+					"summary": "Este Skill cuenta un cuento infantil",
+					"examplePhrases": [
+						"Alexa abre cuentos grimm"
+					],
+					"keywords": [
+						"kids",
+						"games"
+					],
+					"name": "cuentos grimm",
+					"description": "Este Skill cuenta un cuento infantil desde un stream de MP3",
+					"smallIconUri": "https://via.placeholder.com/108/09f/09f.png",
+					"largeIconUri": "https://via.placeholder.com/512/09f/09f.png"
+				},
+				"de-DE": {
+					"summary": "Dieses Skill erzählt eine Kindergeschichte",
+					"examplePhrases": [
+						"Alexa öffne buecher grimm"
+					],
+					"keywords": [
+						"kinder",
+						"games"
+					],
+					"name": "buecher grimm",
+					"description": "Dieses Skill erzählt eine Kindergeschichte aus ein MP3 Stream",
+					"smallIconUri": "https://via.placeholder.com/108/09f/09f.png",
+					"largeIconUri": "https://via.placeholder.com/512/09f/09f.png"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://amykvvjx7b.execute-api.eu-central-1.amazonaws.com/default/grimm_skill_jovo"
+				},
+				"interfaces": [
+					{
+						"type": "AUDIO_PLAYER"
+					}
+				]
+			}
+		},
+		"manifestVersion": "1.0",
+		"privacyAndCompliance": {
+			"allowsPurchases": false,
+			"locales": {
+				"en-US": {
+					"privacyPolicyUrl": "http://example.com/en-US/policy",
+					"termsOfUseUrl": ""
+				},
+				"es-MX": {
+					"privacyPolicyUrl": "http://example.com/es-MX/policy",
+					"termsOfUseUrl": ""
+				},
+				"de-DE": {
+					"privacyPolicyUrl": "http://example.com/de-DE/policy",
+					"termsOfUseUrl": ""
+				}
+			},
+			"isExportCompliant": true,
+			"containsAds": false,
+			"isChildDirected": false,
+			"usesPersonalInfo": false
+		}
+	}
+}
