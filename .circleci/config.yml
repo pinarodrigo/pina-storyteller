@@ -22,4 +22,8 @@ jobs:
 workflows:
     aws-cli:
       jobs:
-        - build-and-deploy
+        - build-and-deploy:
+            filters:
+              branches:
+                only:
+                  - master
