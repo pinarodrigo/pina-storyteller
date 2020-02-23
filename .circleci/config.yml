@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - aws-cli/setup
-      - run: update-function-code -function-name grimm_skill_jovo --zip-file bundle.zip"
+      - run: update-function-code -function-name grimm_skill_jovo --zip-file bundle.zip
 workflows:
     aws-cli:
       jobs:
