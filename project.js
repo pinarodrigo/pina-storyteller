@@ -18,4 +18,12 @@ module.exports = {
         },
     },
     endpoint: 'https://amykvvjx7b.execute-api.eu-central-1.amazonaws.com/default/grimm_skill_jovo',
+    stages: {
+        dev: {
+            endpoint: '${JOVO_WEBHOOK_URL}',
+        },
+        prod: {
+            endpoint: 'https://amykvvjx7b.execute-api.eu-central-1.amazonaws.com/default/grimm_skill_jovo',
+        },
+    },
 };
