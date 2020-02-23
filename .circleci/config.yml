@@ -4,9 +4,10 @@ orbs:
   node: circleci/node@1.1.6
 jobs:
   build-and-deploy:
-    branches:
-      only:
-        - master
+    build:
+      branches:
+        only:
+          - master
     executor:
       name: node/default
     steps:
