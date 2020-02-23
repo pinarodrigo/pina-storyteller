@@ -16,7 +16,6 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: npm install -g gulp-cli
             - run: npm install
             - run: npm run bundle
 workflows:
