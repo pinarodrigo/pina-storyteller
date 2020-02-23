@@ -9,12 +9,12 @@
 
 # Template: Alexa Audioplayer
 
-Sample Alexa Audioplayer Skill that plays a longform audio file with the Audioplayer directive.
+# Build
+    * jovo build --stage dev
+    * jovo build --stage prod
 
-```sh
-$ jovo new <directory> --template alexa/audioplayer
-
-# Short version
-$ jovo new <directory> -t a/audioplayer
-```
+# Deploy
+    * jovo deploy --stage dev (Sets DEV Endpoint)
+        * Use jovo run to start the local debugger
+    * jovo deploy --stage prod (default, Sets PROD endpoint)
 

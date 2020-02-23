@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+    "url": "git+https://github.com/pinarodrigo/pina-storyteller.git"
   },
-  "author": "Jovo",
+  "author": "Rodrigo Pina",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+    "url": "https://github.com/pinarodrigo/pina-storyteller.git/issues"
   },
-  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+  "homepage": "https://github.com/pinarodrigo/pina-storyteller.git#readme"
 }
