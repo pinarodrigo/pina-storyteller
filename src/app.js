@@ -25,7 +25,9 @@ const espanol_array = [
     'https://ia800903.us.archive.org/29/items/Cuentos-infantiles/patito.feo_64kb.mp3',
     'https://ia800903.us.archive.org/29/items/Cuentos-infantiles/lobo-zorro-burro_vbr.mp3',
     'https://ia800903.us.archive.org/29/items/Cuentos-infantiles/hamelin_64kb.mp3',
-    'https://ia800903.us.archive.org/29/items/Cuentos-infantiles/alibbaba_64kb.mp3'
+    'https://ia800903.us.archive.org/29/items/Cuentos-infantiles/alibbaba_64kb.mp3',
+    'https://pinanet-media.s3.eu-central-1.amazonaws.com/De+magia%2C+cuentos+y+leyendas+mexicanas%3B+El+callejo%CC%81n+del+beso.mp3',
+    'https://pinanet-media.s3.eu-central-1.amazonaws.com/De+magia%2C+cuentos+y+leyendas+mexicanas%3B+La+campana+del+palacio.mp3'
 ];
 
 const deutsch_array = [
